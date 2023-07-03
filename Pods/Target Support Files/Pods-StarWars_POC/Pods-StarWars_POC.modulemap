@@ -1,0 +1,6 @@
+framework module Pods_StarWars_POC {
+  umbrella header "Pods-StarWars_POC-umbrella.h"
+
+  export *
+  module * { export * }
+}

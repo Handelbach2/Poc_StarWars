@@ -16,11 +16,14 @@ class ViewController: UIViewController {
     var sections: [String] = []
     var imgs: [UIImage?] = []
     var des: [String] = []
+    
+    override func viewWillAppear(_ animated: Bool) {
+        generateStars()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewConfig()
-        generateStars()
+        viewConfig()        
         collectionConfig()
     }
     
@@ -41,7 +44,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return sections.count
     }
@@ -60,6 +63,26 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0 :
+            characterView()
+            print("Personajes")
+        case 1 :
+            print("Planetas")
+        case 2 :
+            print("Peliculas")
+        case 3 :
+            print("Rzas")
+        case 4 :
+            print("Vehiculos")
+        case 5 :
+            print("navez")
+        default :
+            print("Personajes")
+        }
     }
     
 }
