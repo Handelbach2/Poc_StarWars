@@ -14,6 +14,11 @@
 		1F4238512A53395500B5A040 /* StarWars_POC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F42384F2A53395500B5A040 /* StarWars_POC.xcdatamodeld */; };
 		1F4238532A53395700B5A040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4238522A53395700B5A040 /* Assets.xcassets */; };
 		1F4238562A53395700B5A040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4238542A53395700B5A040 /* LaunchScreen.storyboard */; };
+		1F4238622A5356EB00B5A040 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4238612A5356EB00B5A040 /* StarView.swift */; };
+		1F4238652A5357BD00B5A040 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4238642A5357BD00B5A040 /* Animation.swift */; };
+		1F4238682A5359C700B5A040 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4238662A5359C600B5A040 /* HomeCell.swift */; };
+		1F4238692A5359C700B5A040 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F4238672A5359C600B5A040 /* HomeCell.xib */; };
+		1F42386C2A537E6300B5A040 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42386B2A537E6300B5A040 /* Globals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		1F4238522A53395700B5A040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4238552A53395700B5A040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4238572A53395700B5A040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4238612A5356EB00B5A040 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		1F4238642A5357BD00B5A040 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1F4238662A5359C600B5A040 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		1F4238672A5359C600B5A040 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		1F42386B2A537E6300B5A040 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,10 @@
 		1F4238452A53395500B5A040 /* StarWars_POC */ = {
 			isa = PBXGroup;
 			children = (
+				1F4238632A5357AC00B5A040 /* Animation */,
+				1F4238602A5356D700B5A040 /* Helper */,
 				1F42385F2A5340AE00B5A040 /* Home */,
 				1F42385D2A53408200B5A040 /* AppDelegate */,
-				1F42384A2A53395500B5A040 /* ViewController.swift */,
-				1F42384C2A53395500B5A040 /* Main.storyboard */,
 				1F4238522A53395700B5A040 /* Assets.xcassets */,
 				1F4238542A53395700B5A040 /* LaunchScreen.storyboard */,
 				1F4238572A53395700B5A040 /* Info.plist */,
@@ -82,8 +92,37 @@
 		1F42385F2A5340AE00B5A040 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1F42386A2A5359D000B5A040 /* HomeCell */,
+				1F42384A2A53395500B5A040 /* ViewController.swift */,
+				1F42384C2A53395500B5A040 /* Main.storyboard */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		1F4238602A5356D700B5A040 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1F4238612A5356EB00B5A040 /* StarView.swift */,
+				1F42386B2A537E6300B5A040 /* Globals.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1F4238632A5357AC00B5A040 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1F4238642A5357BD00B5A040 /* Animation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		1F42386A2A5359D000B5A040 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F4238662A5359C600B5A040 /* HomeCell.swift */,
+				1F4238672A5359C600B5A040 /* HomeCell.xib */,
+			);
+			path = HomeCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +186,7 @@
 				1F4238562A53395700B5A040 /* LaunchScreen.storyboard in Resources */,
 				1F4238532A53395700B5A040 /* Assets.xcassets in Resources */,
 				1F42384E2A53395500B5A040 /* Main.storyboard in Resources */,
+				1F4238692A5359C700B5A040 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +200,11 @@
 				1F42384B2A53395500B5A040 /* ViewController.swift in Sources */,
 				1F4238512A53395500B5A040 /* StarWars_POC.xcdatamodeld in Sources */,
 				1F4238472A53395500B5A040 /* AppDelegate.swift in Sources */,
+				1F4238622A5356EB00B5A040 /* StarView.swift in Sources */,
+				1F4238682A5359C700B5A040 /* HomeCell.swift in Sources */,
+				1F4238652A5357BD00B5A040 /* Animation.swift in Sources */,
 				1F4238492A53395500B5A040 /* SceneDelegate.swift in Sources */,
+				1F42386C2A537E6300B5A040 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
