@@ -12,7 +12,7 @@ struct CharBody : Codable {
     var count: Int?
     var next: String?
     var previous: String?
-    var results: [ResultsCharStruct]
+    var results: [ResultsCharStruct]?
 }
 
 struct ResultsCharStruct : Codable {

@@ -68,18 +68,27 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0 :
-            characterView()
-            print("Personajes")
+            let url = "https://swapi.py4e.com/api/people/"
+            ListView(url: url, false)
         case 1 :
-            print("Planetas")
+            print("Planetas", false)
+            let url = "https://swapi.py4e.com/api/planets/"
+            ListView(url: url, false)
         case 2 :
             print("Peliculas")
+            let url = "https://swapi.py4e.com/api/films/"
+            ListView(url: url, true)
         case 3 :
-            print("Rzas")
+            let url = "https://swapi.py4e.com/api/species/"
+            ListView(url: url, false)
         case 4 :
             print("Vehiculos")
+            let url = "https://swapi.py4e.com/api/vehicles/"
+            ListView(url: url, false)
         case 5 :
             print("navez")
+            let url = "https://swapi.py4e.com/api/starships/"
+            ListView(url: url, false)
         default :
             print("Personajes")
         }

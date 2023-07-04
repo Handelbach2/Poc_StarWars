@@ -9,9 +9,11 @@ import UIKit
 
 extension UIViewController {
 
-    func characterView() {
-        let sb = UIStoryboard(name: "CharacterListSB", bundle: nil)
-        let vc = sb.instantiateViewController(identifier: "characterList") as! CharacterList
+    func ListView(url: String, _ isFilm: Bool) {
+        let sb = UIStoryboard(name: "ListSB", bundle: nil)
+        let vc = sb.instantiateViewController(identifier: "listVC") as! ListVC
+        vc.url = url
+        vc.isFilm = isFilm
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
