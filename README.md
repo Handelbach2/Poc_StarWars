@@ -1,6 +1,6 @@
 # Star Wars POC_APP
 
-![Star Wars Universe Logo](logo.png)
+![Star Wars](/StarWars_POC/Assets.xcassets/splasScreen/sw.png.imageset/pngwing.com.png)
 
 Welcome to **Star Wars Universe**, an exciting application that immerses you in the captivating world of Star Wars. Explore and discover detailed information about your favorite characters, movies, planets, spaceships, and species from the Star Wars universe. Get up-to-date data from the SWAPI (Star Wars API), including names, descriptions, physical details, and more. Dive into the rich history of Star Wars and delve into the intricacies of each key element in the saga. With a visually appealing and intuitive interface, enjoy stunning imagery and uncover fascinating facts about the Star Wars universe. Join us and uncover everything you've ever wanted to know about Star Wars in **Star Wars Universe**!
 
