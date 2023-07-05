@@ -74,99 +74,14 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zzW-ZK-XOy">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y76-ic-Kps">
-                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="moe-nm-V8M"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaG-P2-grw">
-                                                <rect key="frame" x="80.666666666666671" y="0.0" width="81.000000000000014" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Species">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Gi1-dM-KzP"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4t8-gd-7UV">
-                                                <rect key="frame" x="161.66666666666666" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="vehicleBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="nGk-Dx-xPY"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jv2-ao-1jQ">
-                                                <rect key="frame" x="242.33333333333329" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Starship">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="starshipBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="gU4-VC-Uck"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="KpB-Ls-cvK"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.22808544841033734" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="wiA-0s-DdN" firstAttribute="top" secondItem="6Q1-by-16D" secondAttribute="bottom" constant="10" id="3Dg-Eh-vaO"/>
-                                    <constraint firstItem="zzW-ZK-XOy" firstAttribute="leading" secondItem="v0D-bJ-ecU" secondAttribute="leading" constant="5" id="5RY-qY-yXc"/>
                                     <constraint firstAttribute="trailing" secondItem="Phz-mU-pjV" secondAttribute="trailing" constant="20" id="B2E-ru-rMv"/>
                                     <constraint firstItem="Phz-mU-pjV" firstAttribute="top" secondItem="Ndp-iz-OxN" secondAttribute="bottom" constant="10" id="E0z-Tn-LcQ"/>
                                     <constraint firstItem="DaI-BO-JSx" firstAttribute="top" secondItem="gca-t0-K8j" secondAttribute="bottom" constant="10" id="FJ0-Bd-HFZ"/>
                                     <constraint firstItem="gca-t0-K8j" firstAttribute="top" secondItem="v0D-bJ-ecU" secondAttribute="top" constant="20" id="HUB-5V-DKD"/>
-                                    <constraint firstAttribute="bottom" secondItem="zzW-ZK-XOy" secondAttribute="bottom" constant="20" id="Hh1-Oe-9V2"/>
                                     <constraint firstAttribute="trailing" secondItem="0bA-bY-ldz" secondAttribute="trailing" constant="20" id="IYQ-tm-Gjg"/>
                                     <constraint firstAttribute="trailing" secondItem="gca-t0-K8j" secondAttribute="trailing" id="OKd-nm-yWV"/>
                                     <constraint firstAttribute="trailing" secondItem="HK7-Vn-Pbo" secondAttribute="trailing" constant="20" id="QZj-3U-tn2"/>
@@ -189,7 +104,6 @@
                                     <constraint firstAttribute="trailing" secondItem="wiA-0s-DdN" secondAttribute="trailing" constant="20" id="xZG-9r-Bkr"/>
                                     <constraint firstItem="Ndp-iz-OxN" firstAttribute="leading" secondItem="v0D-bJ-ecU" secondAttribute="leading" constant="20" id="y6B-bs-gDT"/>
                                     <constraint firstItem="wiA-0s-DdN" firstAttribute="leading" secondItem="v0D-bJ-ecU" secondAttribute="leading" constant="20" id="yps-DN-i3d"/>
-                                    <constraint firstAttribute="trailing" secondItem="zzW-ZK-XOy" secondAttribute="trailing" constant="5" id="yut-iZ-3ec"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -285,54 +199,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfD-60-pNR">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8D1-3D-QYq">
-                                                <rect key="frame" x="0.0" y="0.0" width="161.66666666666666" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="X8L-lD-2Ws" eventType="touchUpInside" id="7OO-uT-J8n"/>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="TVc-9v-0sP"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkf-hy-8eQ">
-                                                <rect key="frame" x="161.66666666666663" y="0.0" width="161.33333333333337" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Residents">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="residentBtnAct:" destination="X8L-lD-2Ws" eventType="touchUpInside" id="ZLC-0q-UIr"/>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ier-k9-uH9"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="x2g-RO-KWr"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.2280854484" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -342,7 +208,6 @@
                                     <constraint firstItem="Bw6-jX-evM" firstAttribute="top" secondItem="not-yu-ud7" secondAttribute="bottom" constant="10" id="68i-JG-bqZ"/>
                                     <constraint firstAttribute="trailing" secondItem="58j-s1-QrR" secondAttribute="trailing" constant="20" id="7oG-BI-uom"/>
                                     <constraint firstItem="58j-s1-QrR" firstAttribute="top" secondItem="9qv-w0-n6o" secondAttribute="bottom" constant="10" id="8ey-Wb-OhS"/>
-                                    <constraint firstItem="gfD-60-pNR" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="5" id="HyY-KE-LhI"/>
                                     <constraint firstAttribute="trailing" secondItem="Tiz-Gs-ug7" secondAttribute="trailing" id="ITq-Hv-411"/>
                                     <constraint firstItem="Tiz-Gs-ug7" firstAttribute="top" secondItem="1eL-2A-zKV" secondAttribute="top" constant="20" id="Raz-rr-kPx"/>
                                     <constraint firstItem="EVg-Td-d6L" firstAttribute="top" secondItem="Tiz-Gs-ug7" secondAttribute="bottom" constant="10" id="SLK-yI-KYa"/>
@@ -351,7 +216,6 @@
                                     <constraint firstItem="Bw6-jX-evM" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="20" id="aVY-EF-cOX"/>
                                     <constraint firstAttribute="trailing" secondItem="dFc-zb-6qy" secondAttribute="trailing" constant="20" id="avx-tQ-Yl4"/>
                                     <constraint firstItem="1ro-sD-scA" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="20" id="axQ-wh-tER"/>
-                                    <constraint firstAttribute="bottom" secondItem="gfD-60-pNR" secondAttribute="bottom" constant="20" id="b2n-U2-N5N"/>
                                     <constraint firstItem="not-yu-ud7" firstAttribute="top" secondItem="Ocm-fp-eNM" secondAttribute="bottom" constant="10" id="b4b-MC-BoA"/>
                                     <constraint firstAttribute="trailing" secondItem="EVg-Td-d6L" secondAttribute="trailing" constant="20" id="bdW-ae-9k1"/>
                                     <constraint firstItem="dFc-zb-6qy" firstAttribute="top" secondItem="58j-s1-QrR" secondAttribute="bottom" constant="10" id="c5y-73-9sY"/>
@@ -364,7 +228,6 @@
                                     <constraint firstItem="not-yu-ud7" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="20" id="hmx-Vf-eXH"/>
                                     <constraint firstItem="9qv-w0-n6o" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="20" id="lT0-1d-yAc"/>
                                     <constraint firstItem="dFc-zb-6qy" firstAttribute="leading" secondItem="1eL-2A-zKV" secondAttribute="leading" constant="20" id="puu-43-onS"/>
-                                    <constraint firstAttribute="trailing" secondItem="gfD-60-pNR" secondAttribute="trailing" constant="5" id="xL1-3N-hJ8"/>
                                     <constraint firstAttribute="trailing" secondItem="Ocm-fp-eNM" secondAttribute="trailing" constant="20" id="ylo-IC-mHj"/>
                                 </constraints>
                             </view>
@@ -448,86 +311,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0L-s1-z7F">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exc-s5-2d4">
-                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Characters">
-                                                            <attributes>
-                                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="koI-aG-nrF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjk-gP-1yF">
-                                                <rect key="frame" x="80.666666666666671" y="0.0" width="81.000000000000014" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Planets">
-                                                            <attributes>
-                                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="z02-7Q-GZG"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7W-Zk-FyU">
-                                                <rect key="frame" x="161.66666666666666" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Starships">
-                                                            <attributes>
-                                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="vehicleBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="kXQ-ey-duc"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-nM-twd">
-                                                <rect key="frame" x="242.33333333333329" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
-                                                            <attributes>
-                                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="starshipBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="EhB-e7-9Ah"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Ldq-CK-GZA"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.2280854484" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -540,10 +323,8 @@
                                     <constraint firstItem="wJH-qH-hbw" firstAttribute="top" secondItem="xPr-Zs-AiV" secondAttribute="bottom" constant="10" id="KBY-54-WQt"/>
                                     <constraint firstItem="xPr-Zs-AiV" firstAttribute="top" secondItem="cqL-8a-Pl6" secondAttribute="top" constant="20" id="P1t-Wt-TxD"/>
                                     <constraint firstAttribute="trailing" secondItem="h7c-db-cmG" secondAttribute="trailing" constant="20" id="RAz-cE-3j6"/>
-                                    <constraint firstAttribute="bottom" secondItem="h0L-s1-z7F" secondAttribute="bottom" constant="20" id="U0Y-UV-4IA"/>
                                     <constraint firstAttribute="trailing" secondItem="xPr-Zs-AiV" secondAttribute="trailing" id="Vmo-LY-EKb"/>
                                     <constraint firstItem="uKC-EM-g6s" firstAttribute="top" secondItem="h7c-db-cmG" secondAttribute="bottom" constant="10" id="Wds-wn-S1i"/>
-                                    <constraint firstItem="h0L-s1-z7F" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="5" id="XxK-gm-k8t"/>
                                     <constraint firstAttribute="trailing" secondItem="uKC-EM-g6s" secondAttribute="trailing" constant="20" id="bzk-2D-rnM"/>
                                     <constraint firstItem="h7c-db-cmG" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="e4a-8R-IoZ"/>
                                     <constraint firstItem="RTS-tq-DSZ" firstAttribute="top" secondItem="nhY-YB-CdM" secondAttribute="bottom" constant="10" id="ejE-Oi-4yh"/>
@@ -552,7 +333,6 @@
                                     <constraint firstItem="wJH-qH-hbw" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="kua-q4-yep"/>
                                     <constraint firstAttribute="trailing" secondItem="nhY-YB-CdM" secondAttribute="trailing" constant="20" id="nSc-Jn-BKU"/>
                                     <constraint firstItem="nhY-YB-CdM" firstAttribute="top" secondItem="uKC-EM-g6s" secondAttribute="bottom" constant="10" id="rbp-Cj-nlz"/>
-                                    <constraint firstAttribute="trailing" secondItem="h0L-s1-z7F" secondAttribute="trailing" constant="5" id="tlZ-d8-Rvw"/>
                                     <constraint firstAttribute="trailing" secondItem="wJH-qH-hbw" secondAttribute="trailing" constant="20" id="vQP-KE-rID"/>
                                     <constraint firstItem="4ER-hx-T54" firstAttribute="top" secondItem="RTS-tq-DSZ" secondAttribute="bottom" constant="10" id="zCn-B2-Tyd"/>
                                 </constraints>
@@ -648,89 +428,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vjz-r1-QCO">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuS-m5-w4d">
-                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qSs-29-3qj"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pc-7M-hXm">
-                                                <rect key="frame" x="80.666666666666671" y="0.0" width="81.000000000000014" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Species">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="tNk-Dw-mz5"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvF-EX-80p">
-                                                <rect key="frame" x="161.66666666666666" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="vehicleBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Sd1-Rm-msD"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQt-rB-Zmm">
-                                                <rect key="frame" x="242.33333333333329" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Starship">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="starshipBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7Af-GI-fP5"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="CMF-jt-VpT"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.2280854484" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -740,7 +437,6 @@
                                     <constraint firstAttribute="trailing" secondItem="MxK-6P-ypb" secondAttribute="trailing" constant="20" id="4Nw-aI-9yX"/>
                                     <constraint firstItem="rlq-5A-uxr" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="20" id="56X-2h-bXE"/>
                                     <constraint firstItem="j0U-DL-Xec" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="20" id="5fA-gJ-y70"/>
-                                    <constraint firstItem="vjz-r1-QCO" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="5" id="8pj-uz-dCp"/>
                                     <constraint firstItem="GZS-jB-ube" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="20" id="AD4-JJ-Yy5"/>
                                     <constraint firstItem="aLv-d2-DKn" firstAttribute="top" secondItem="j0U-DL-Xec" secondAttribute="bottom" constant="10" id="B1I-1N-ifb"/>
                                     <constraint firstItem="TYe-nA-hC6" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="20" id="B7r-3c-w13"/>
@@ -750,8 +446,6 @@
                                     <constraint firstItem="MxK-6P-ypb" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" constant="20" id="S42-zJ-KFg"/>
                                     <constraint firstItem="MxK-6P-ypb" firstAttribute="top" secondItem="TYe-nA-hC6" secondAttribute="bottom" constant="10" id="V3b-EV-ZkI"/>
                                     <constraint firstItem="PNd-jz-dfW" firstAttribute="top" secondItem="MxK-6P-ypb" secondAttribute="bottom" constant="10" id="Z4P-qF-Wuc"/>
-                                    <constraint firstAttribute="bottom" secondItem="vjz-r1-QCO" secondAttribute="bottom" constant="20" id="ZwE-KV-He5"/>
-                                    <constraint firstAttribute="trailing" secondItem="vjz-r1-QCO" secondAttribute="trailing" constant="5" id="esW-fl-xri"/>
                                     <constraint firstItem="UHA-TB-0fd" firstAttribute="leading" secondItem="M82-j7-6l2" secondAttribute="leading" id="fFG-kO-wNt"/>
                                     <constraint firstAttribute="trailing" secondItem="k8a-jj-uyQ" secondAttribute="trailing" constant="20" id="gPo-d5-VoU"/>
                                     <constraint firstAttribute="trailing" secondItem="j0U-DL-Xec" secondAttribute="trailing" constant="20" id="jxz-Sf-RCM"/>
@@ -859,89 +553,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H9e-ap-TMx">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6X-dh-7g1">
-                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QPW-im-Xgl"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMZ-Iv-7Mz">
-                                                <rect key="frame" x="80.666666666666671" y="0.0" width="81.000000000000014" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Species">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="g3d-7D-pjX"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrW-fh-dDw">
-                                                <rect key="frame" x="161.66666666666666" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="vehicleBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Bvz-3b-6Nd"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9T-fE-IB3">
-                                                <rect key="frame" x="242.33333333333329" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Starship">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="starshipBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eOU-ui-Rvb"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="dSV-MW-Vlz"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.2280854484" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -951,21 +562,18 @@
                                     <constraint firstItem="lX6-7G-PoE" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="9Wz-JK-g4G"/>
                                     <constraint firstItem="UTo-4M-1cf" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="Arx-C8-E07"/>
                                     <constraint firstAttribute="trailing" secondItem="aaS-p9-DGs" secondAttribute="trailing" constant="20" id="Atg-al-YLN"/>
-                                    <constraint firstAttribute="bottom" secondItem="H9e-ap-TMx" secondAttribute="bottom" constant="20" id="BiB-Mc-LbU"/>
                                     <constraint firstAttribute="trailing" secondItem="kNw-6f-S76" secondAttribute="trailing" constant="20" id="Djn-qQ-Ybx"/>
                                     <constraint firstAttribute="trailing" secondItem="Ywa-ee-4XK" secondAttribute="trailing" constant="20" id="DmP-Yg-pDo"/>
                                     <constraint firstItem="DUg-ow-sJJ" firstAttribute="top" secondItem="lX6-7G-PoE" secondAttribute="bottom" constant="10" id="E5w-j2-haE"/>
                                     <constraint firstItem="DUg-ow-sJJ" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="ENN-yB-Sjk"/>
                                     <constraint firstItem="v1K-Fx-GGS" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="FZw-Sg-dld"/>
                                     <constraint firstItem="Ywa-ee-4XK" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="IAa-nU-2w4"/>
-                                    <constraint firstItem="H9e-ap-TMx" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="5" id="JKJ-EA-pNU"/>
                                     <constraint firstAttribute="trailing" secondItem="UTo-4M-1cf" secondAttribute="trailing" constant="20" id="U4b-Zp-fbJ"/>
                                     <constraint firstItem="aaS-p9-DGs" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="U9a-fI-Gw1"/>
                                     <constraint firstItem="Ywa-ee-4XK" firstAttribute="top" secondItem="kNw-6f-S76" secondAttribute="bottom" constant="10" id="Ug1-0l-e4E"/>
                                     <constraint firstItem="oix-eT-9T5" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" id="VMS-BN-t1N"/>
                                     <constraint firstItem="FDL-5T-aW1" firstAttribute="leading" secondItem="tog-Xg-3YJ" secondAttribute="leading" constant="20" id="WR6-Zd-qdL"/>
                                     <constraint firstAttribute="trailing" secondItem="oix-eT-9T5" secondAttribute="trailing" id="anS-Ag-Oez"/>
-                                    <constraint firstAttribute="trailing" secondItem="H9e-ap-TMx" secondAttribute="trailing" constant="5" id="eF5-i9-jvS"/>
                                     <constraint firstAttribute="trailing" secondItem="lX6-7G-PoE" secondAttribute="trailing" constant="20" id="eQt-7E-PFb"/>
                                     <constraint firstItem="kNw-6f-S76" firstAttribute="top" secondItem="FDL-5T-aW1" secondAttribute="bottom" constant="10" id="egT-Vt-tlT"/>
                                     <constraint firstAttribute="trailing" secondItem="v1K-Fx-GGS" secondAttribute="trailing" constant="20" id="iQ5-89-3P8"/>
@@ -1071,89 +679,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7v-3N-R3o">
-                                        <rect key="frame" x="5" y="649" width="323" height="30"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltN-xq-4y3">
-                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="filmBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="XFa-Ew-P4V"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZM-Vn-6MY">
-                                                <rect key="frame" x="80.666666666666671" y="0.0" width="81.000000000000014" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Species">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="speciesBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vYN-jb-dtF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5z-HL-gjq">
-                                                <rect key="frame" x="161.66666666666666" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="vehicleBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ZTH-Tj-Vox"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Arr-Kq-hut">
-                                                <rect key="frame" x="242.33333333333329" y="0.0" width="80.666666666666657" height="30"/>
-                                                <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Starship">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="starshipBtnAct:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Gq4-HF-jfn"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="U9Q-ye-xS0"/>
-                                        </constraints>
-                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.2280854484" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1162,16 +687,13 @@
                                     <constraint firstItem="Nas-c8-pcx" firstAttribute="leading" secondItem="l7X-eY-jvQ" secondAttribute="leading" constant="20" id="7nS-HY-njx"/>
                                     <constraint firstItem="Nas-c8-pcx" firstAttribute="top" secondItem="qeu-cb-9fi" secondAttribute="bottom" constant="10" id="8qp-u8-CcT"/>
                                     <constraint firstItem="Iho-gS-nyh" firstAttribute="top" secondItem="Nas-c8-pcx" secondAttribute="bottom" constant="10" id="BkU-nC-iRO"/>
-                                    <constraint firstAttribute="trailing" secondItem="q7v-3N-R3o" secondAttribute="trailing" constant="5" id="FFb-Rq-42K"/>
                                     <constraint firstItem="5f4-aV-kRV" firstAttribute="top" secondItem="DdZ-ZQ-f9q" secondAttribute="bottom" constant="10" id="H4l-jl-dNH"/>
                                     <constraint firstAttribute="trailing" secondItem="Iho-gS-nyh" secondAttribute="trailing" constant="20" id="I2J-8c-WtC"/>
                                     <constraint firstAttribute="trailing" secondItem="DdZ-ZQ-f9q" secondAttribute="trailing" constant="20" id="JVI-hK-utL"/>
                                     <constraint firstAttribute="trailing" secondItem="sKG-nL-LJN" secondAttribute="trailing" constant="20" id="MbD-iZ-ZdV"/>
                                     <constraint firstItem="sKG-nL-LJN" firstAttribute="leading" secondItem="l7X-eY-jvQ" secondAttribute="leading" constant="20" id="PNe-cn-vf9"/>
                                     <constraint firstItem="qeu-cb-9fi" firstAttribute="top" secondItem="bYr-WX-FBC" secondAttribute="bottom" constant="10" id="RH9-p2-Ujz"/>
-                                    <constraint firstAttribute="bottom" secondItem="q7v-3N-R3o" secondAttribute="bottom" constant="20" id="SCg-9E-twA"/>
                                     <constraint firstItem="C2G-rU-z5L" firstAttribute="leading" secondItem="l7X-eY-jvQ" secondAttribute="leading" constant="20" id="Try-87-zN4"/>
-                                    <constraint firstItem="q7v-3N-R3o" firstAttribute="leading" secondItem="l7X-eY-jvQ" secondAttribute="leading" constant="5" id="TuB-kE-Nam"/>
                                     <constraint firstAttribute="trailing" secondItem="Nas-c8-pcx" secondAttribute="trailing" constant="20" id="YTb-3p-m5O"/>
                                     <constraint firstItem="sKG-nL-LJN" firstAttribute="top" secondItem="Iho-gS-nyh" secondAttribute="bottom" constant="10" id="Yrm-tN-snV"/>
                                     <constraint firstAttribute="trailing" secondItem="bYr-WX-FBC" secondAttribute="trailing" constant="20" id="ZtX-TT-Nt8"/>

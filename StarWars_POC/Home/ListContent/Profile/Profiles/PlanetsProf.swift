@@ -62,13 +62,4 @@ class PlanetsProf: UIViewController {
             img.image = UIImage(systemName: "person.circle" )
         }
     }
-    
-    
-    @IBAction func filmBtnAct(_ sender: Any) {
-        
-    }
-    
-    @IBAction func residentBtnAct(_ sender: Any) {
-        
-    }
 }

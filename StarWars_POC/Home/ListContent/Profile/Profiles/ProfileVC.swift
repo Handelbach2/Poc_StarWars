@@ -65,21 +65,4 @@ class ProfileVC: UIViewController {
             imgProf.image = UIImage(systemName: "person.circle" )
         }
     }
-    
-    
-    @IBAction func filmBtnAct(_ sender: Any) {
-        
-    }
-    
-    @IBAction func speciesBtnAct(_ sender: Any) {
-        
-    }
-    
-    @IBAction func vehicleBtnAct(_ sender: Any) {
-        
-    }
-    
-    @IBAction func starshipBtnAct(_ sender: Any) {
-        
-    }
 }
