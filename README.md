@@ -13,9 +13,9 @@ Welcome to **Star Wars Universe**, an exciting application that immerses you in 
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
-![Screenshot 3](screenshot3.png)
+![Screenshot 1](MG_0060.PNG)
+![Screenshot 2](IMG_0061.PNG)
+
 
 ## Getting Started
 
