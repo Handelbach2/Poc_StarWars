@@ -21,7 +21,7 @@ Welcome to **Star Wars Universe**, an exciting application that immerses you in 
 
 To get started with **Star Wars Universe**, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/star-wars-universe.git`
+1. Clone the repository: `git clone https://github.com/Handelbach2/Poc_StarWars`
 2. Open the project in your preferred IDE.
 3. Build and run the application on your simulator or device.
 4. Explore the vast Star Wars universe and enjoy the rich information available.
