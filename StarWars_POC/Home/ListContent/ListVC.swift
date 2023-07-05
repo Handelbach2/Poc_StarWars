@@ -21,6 +21,7 @@ class ListVC: UIViewController {
     var isFilm: Bool = false
     var nextUrl: String = ""
     var prevUrl: String = ""
+    var section: String?
     
     override func viewWillAppear(_ animated: Bool) {
         generateStars()
@@ -51,6 +52,7 @@ class ListVC: UIViewController {
     
     func tableConfig() {
         table.dataSource = self
+        table.delegate = self
         table.separatorColor = .none
         table.register(UINib(nibName: "ContentListCell", bundle: nil), forCellReuseIdentifier: "contentListCell")
     }
@@ -137,7 +139,7 @@ class ListVC: UIViewController {
     }
 }
 
-extension ListVC: UITableViewDataSource {
+extension ListVC: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return isFilm ? filmBody?.results?.count ?? 0 : body?.results!.count ?? 0
@@ -152,5 +154,27 @@ extension ListVC: UITableViewDataSource {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+         
+        let url = isFilm ? filmResult![indexPath.row].url : result![indexPath.row].url
+                
+        switch section {
+        case "Personajes" :
+            profile(url: url!)
+        case "Planetas" :
+            profilePlanets(url: url!)
+        case "Películas" :
+            profileFilm(url: url!)
+        case "Razas" :
+            speciesFilm(url: url!)
+        case "Vehiculos" :
+            profileFilm(url: url!)
+        case "Naves" :
+            profileFilm(url: url!)
+        default :
+            profile(url: url!)
+        }
+        
+    }
 }
