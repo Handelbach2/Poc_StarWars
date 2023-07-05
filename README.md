@@ -13,8 +13,8 @@ Welcome to **Star Wars Universe**, an exciting application that immerses you in 
 
 ## Screenshots
 
-![Screenshot 1](MG_0060.PNG)
-![Screenshot 2](IMG_0061.PNG)
+![Screenshot 1](/caps/IMG_0060.PNG)
+![Screenshot 2](/caps/IMG_0061.PNG)
 
 
 ## Getting Started
