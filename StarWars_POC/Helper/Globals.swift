@@ -14,7 +14,7 @@ class Globals {
         
     var sections: [String] = ["Personajes", "Planetas", "Películas", "Razas", "Vehiculos", "Naves"]
     
-    var imgs: [UIImage?] = [UIImage(named: "char"), UIImage(named: "planets"), UIImage(named: "mov"),UIImage(named: "specie"),UIImage(named: "vei"),UIImage(named: "ships")]
+    var imgs: [UIImage?] = [UIImage(named: "char"), UIImage(named: "planets"), UIImage(named: "The Empire Strikes Back"),UIImage(named: "specie"),UIImage(named: "vei"),UIImage(named: "ships")]
     
     var desc: [String] = [
         "Explora los fascinantes personajes del universo",

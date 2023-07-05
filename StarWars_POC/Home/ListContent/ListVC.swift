@@ -169,9 +169,9 @@ extension ListVC: UITableViewDataSource, UITableViewDelegate {
         case "Razas" :
             speciesFilm(url: url!)
         case "Vehiculos" :
-            profileFilm(url: url!)
+            vehiclesFilm(url: url!)
         case "Naves" :
-            profileFilm(url: url!)
+            starshipFilm(url: url!)
         default :
             profile(url: url!)
         }

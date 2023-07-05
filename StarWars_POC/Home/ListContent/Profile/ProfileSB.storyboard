@@ -21,7 +21,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gca-t0-K8j">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemGray2Color"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="i80-lp-1EO"/>
                                         </constraints>
@@ -232,7 +232,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tiz-Gs-ug7">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="XzB-dd-Jpg"/>
                                         </constraints>
@@ -407,7 +407,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xPr-Zs-AiV">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="x6s-z8-KUX"/>
                                         </constraints>
@@ -448,18 +448,6 @@
                                         <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n71-q6-S2i">
-                                        <rect key="frame" x="20" y="381.66666666666669" width="293" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1o1-qN-XAR">
-                                        <rect key="frame" x="20" y="409.66666666666669" width="293" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0L-s1-z7F">
                                         <rect key="frame" x="5" y="649" width="323" height="30"/>
                                         <subviews>
@@ -469,10 +457,9 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Films">
+                                                        <fragment content="Characters">
                                                             <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -488,10 +475,9 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Species">
+                                                        <fragment content="Planets">
                                                             <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -507,10 +493,10 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Vehicles">
+                                                        <fragment content="Starships">
                                                             <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -525,10 +511,9 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Starship">
+                                                        <fragment content="Vehicles">
                                                             <attributes>
-                                                                <font key="NSFont" size="13" name="ArialMT"/>
-                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -549,21 +534,16 @@
                                     <constraint firstAttribute="trailing" secondItem="RTS-tq-DSZ" secondAttribute="trailing" constant="20" id="1Kk-Ko-oER"/>
                                     <constraint firstItem="uKC-EM-g6s" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="2Du-2b-Xlu"/>
                                     <constraint firstItem="h7c-db-cmG" firstAttribute="top" secondItem="wJH-qH-hbw" secondAttribute="bottom" constant="10" id="41V-eT-e4l"/>
-                                    <constraint firstItem="n71-q6-S2i" firstAttribute="top" secondItem="4ER-hx-T54" secondAttribute="bottom" constant="10" id="9ly-px-aCH"/>
-                                    <constraint firstAttribute="trailing" secondItem="1o1-qN-XAR" secondAttribute="trailing" constant="20" id="BNH-zE-g0r"/>
-                                    <constraint firstAttribute="trailing" secondItem="n71-q6-S2i" secondAttribute="trailing" constant="20" id="DGK-ga-hVc"/>
                                     <constraint firstItem="nhY-YB-CdM" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="Gpu-yx-hAu"/>
                                     <constraint firstItem="4ER-hx-T54" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="Ipg-YN-LLI"/>
                                     <constraint firstAttribute="trailing" secondItem="4ER-hx-T54" secondAttribute="trailing" constant="20" id="J2C-gn-OJk"/>
                                     <constraint firstItem="wJH-qH-hbw" firstAttribute="top" secondItem="xPr-Zs-AiV" secondAttribute="bottom" constant="10" id="KBY-54-WQt"/>
                                     <constraint firstItem="xPr-Zs-AiV" firstAttribute="top" secondItem="cqL-8a-Pl6" secondAttribute="top" constant="20" id="P1t-Wt-TxD"/>
                                     <constraint firstAttribute="trailing" secondItem="h7c-db-cmG" secondAttribute="trailing" constant="20" id="RAz-cE-3j6"/>
-                                    <constraint firstItem="n71-q6-S2i" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="TC5-2H-ybm"/>
                                     <constraint firstAttribute="bottom" secondItem="h0L-s1-z7F" secondAttribute="bottom" constant="20" id="U0Y-UV-4IA"/>
                                     <constraint firstAttribute="trailing" secondItem="xPr-Zs-AiV" secondAttribute="trailing" id="Vmo-LY-EKb"/>
                                     <constraint firstItem="uKC-EM-g6s" firstAttribute="top" secondItem="h7c-db-cmG" secondAttribute="bottom" constant="10" id="Wds-wn-S1i"/>
                                     <constraint firstItem="h0L-s1-z7F" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="5" id="XxK-gm-k8t"/>
-                                    <constraint firstItem="1o1-qN-XAR" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="bg5-c5-JNu"/>
                                     <constraint firstAttribute="trailing" secondItem="uKC-EM-g6s" secondAttribute="trailing" constant="20" id="bzk-2D-rnM"/>
                                     <constraint firstItem="h7c-db-cmG" firstAttribute="leading" secondItem="cqL-8a-Pl6" secondAttribute="leading" constant="20" id="e4a-8R-IoZ"/>
                                     <constraint firstItem="RTS-tq-DSZ" firstAttribute="top" secondItem="nhY-YB-CdM" secondAttribute="bottom" constant="10" id="ejE-Oi-4yh"/>
@@ -574,7 +554,6 @@
                                     <constraint firstItem="nhY-YB-CdM" firstAttribute="top" secondItem="uKC-EM-g6s" secondAttribute="bottom" constant="10" id="rbp-Cj-nlz"/>
                                     <constraint firstAttribute="trailing" secondItem="h0L-s1-z7F" secondAttribute="trailing" constant="5" id="tlZ-d8-Rvw"/>
                                     <constraint firstAttribute="trailing" secondItem="wJH-qH-hbw" secondAttribute="trailing" constant="20" id="vQP-KE-rID"/>
-                                    <constraint firstItem="1o1-qN-XAR" firstAttribute="top" secondItem="n71-q6-S2i" secondAttribute="bottom" constant="10" id="w2s-3r-d9r"/>
                                     <constraint firstItem="4ER-hx-T54" firstAttribute="top" secondItem="RTS-tq-DSZ" secondAttribute="bottom" constant="10" id="zCn-B2-Tyd"/>
                                 </constraints>
                             </view>
@@ -588,6 +567,16 @@
                             <constraint firstItem="E8r-nI-Gw3" firstAttribute="trailing" secondItem="cqL-8a-Pl6" secondAttribute="trailing" constant="30" id="z3q-fv-0mY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="director" destination="nhY-YB-CdM" id="lZk-ax-uiL"/>
+                        <outlet property="episode" destination="h7c-db-cmG" id="Yny-k2-0tb"/>
+                        <outlet property="img" destination="xPr-Zs-AiV" id="raP-zS-HuA"/>
+                        <outlet property="opening" destination="uKC-EM-g6s" id="qRx-V2-wQi"/>
+                        <outlet property="producer" destination="RTS-tq-DSZ" id="cQm-Rh-JTQ"/>
+                        <outlet property="releaseFilm" destination="4ER-hx-T54" id="ibr-6f-6lj"/>
+                        <outlet property="titleFilm" destination="wJH-qH-hbw" id="e2o-cd-wPG"/>
+                        <outlet property="viewFilm" destination="cqL-8a-Pl6" id="H0Y-Vy-VgX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3WO-vk-w7y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -606,7 +595,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UHA-TB-0fd">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="NP7-zB-nNa"/>
                                         </constraints>
@@ -787,6 +776,18 @@
                             <constraint firstItem="9qm-bp-Smh" firstAttribute="trailing" secondItem="M82-j7-6l2" secondAttribute="trailing" constant="30" id="v2u-YZ-fDv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="classification" destination="rlq-5A-uxr" id="Krh-Ny-Exv"/>
+                        <outlet property="designation" destination="TYe-nA-hC6" id="Ec3-4P-OqY"/>
+                        <outlet property="everage" destination="MxK-6P-ypb" id="dQT-k3-14n"/>
+                        <outlet property="eye" destination="j0U-DL-Xec" id="c9H-dH-42x"/>
+                        <outlet property="hair" destination="GZS-jB-ube" id="ktL-Eo-MA6"/>
+                        <outlet property="img" destination="UHA-TB-0fd" id="wRO-0s-ais"/>
+                        <outlet property="lenguaje" destination="aLv-d2-DKn" id="5kM-b3-j8g"/>
+                        <outlet property="namePRof" destination="k8a-jj-uyQ" id="lEf-Qg-rCw"/>
+                        <outlet property="skin" destination="PNd-jz-dfW" id="Zwv-1a-FvS"/>
+                        <outlet property="viewProf" destination="M82-j7-6l2" id="h3r-dK-V98"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5L9-y1-jiU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -805,7 +806,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oix-eT-9T5">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="vX2-rE-gLy"/>
                                         </constraints>
@@ -986,6 +987,19 @@
                             <constraint firstItem="tog-Xg-3YJ" firstAttribute="top" secondItem="UCY-s9-I6y" secondAttribute="top" constant="30" id="zfN-vD-tIY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cargo" destination="v1K-Fx-GGS" id="VWZ-pk-TNN"/>
+                        <outlet property="cost" destination="UTo-4M-1cf" id="0SV-iT-qe9"/>
+                        <outlet property="crew" destination="kNw-6f-S76" id="atI-49-ffH"/>
+                        <outlet property="img" destination="oix-eT-9T5" id="O7R-DA-TLz"/>
+                        <outlet property="lenght" destination="aaS-p9-DGs" id="vfW-g7-w4D"/>
+                        <outlet property="manu" destination="UTo-4M-1cf" id="Bfn-N6-e6Y"/>
+                        <outlet property="max" destination="FDL-5T-aW1" id="YO0-Pc-xhH"/>
+                        <outlet property="modelProf" destination="DUg-ow-sJJ" id="ums-x5-A3F"/>
+                        <outlet property="nameProf" destination="lX6-7G-PoE" id="wuz-8W-ST9"/>
+                        <outlet property="pass" destination="Ywa-ee-4XK" id="5rH-QD-XIS"/>
+                        <outlet property="viewProf" destination="tog-Xg-3YJ" id="6nZ-IM-kPB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmM-ln-sNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1004,7 +1018,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-4M-DOg">
                                         <rect key="frame" x="0.0" y="21" width="333" height="178.66666666666669"/>
-                                        <color key="tintColor" red="1" green="0.90980392160000001" blue="0.090196078430000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="3Br-38-h96"/>
                                         </constraints>
@@ -1185,6 +1199,17 @@
                             <constraint firstItem="Qnx-f8-5PM" firstAttribute="trailing" secondItem="l7X-eY-jvQ" secondAttribute="trailing" constant="30" id="yRk-s6-rMK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cost" destination="Iho-gS-nyh" id="52U-eL-705"/>
+                        <outlet property="crew" destination="5f4-aV-kRV" id="zc0-9H-544"/>
+                        <outlet property="lenght" destination="sKG-nL-LJN" id="9JY-8H-SyV"/>
+                        <outlet property="manu" destination="Nas-c8-pcx" id="lOV-53-5Kw"/>
+                        <outlet property="max" destination="DdZ-ZQ-f9q" id="lAa-4T-oFR"/>
+                        <outlet property="model" destination="qeu-cb-9fi" id="tW9-Ko-Xz9"/>
+                        <outlet property="nameProf" destination="bYr-WX-FBC" id="WoW-KG-q4x"/>
+                        <outlet property="pass" destination="C2G-rU-z5L" id="qqc-zA-JfS"/>
+                        <outlet property="viewProd" destination="l7X-eY-jvQ" id="HxY-Ei-tlu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9f-4n-oFc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1195,6 +1220,9 @@
         <image name="person.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
